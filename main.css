@@ -1,35 +1,38 @@
+body {
+    background: rgb(8, 88, 88);
+    display: block;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: aliceblue;
 }
-#background{
-background: rgb(192, 204, 202);
-display: block;
 
 
-}
 article {
     display: block;
     width: 70%;
-    margin: 15px auto;
+    margin: 50px auto;
     text-align: center;
 }
 
 #comments {
     width: 80%;
-    border: 1px solid rgb(36, 119, 119);
+    border: 1px solid rgb(2, 24, 24);
     border-radius: 5px;
     padding: 15px;
     margin-top: 25px 25px;
    margin-left: 100px;
+   background: rgb(165, 163, 158);
    
 }
 
 div li {
     list-style: none;
     margin: 10px;
-    background: rgb(128, 176, 190);
+    background: rgb(8, 88, 88);
 }
 
 #newComment [type='text']{
@@ -38,7 +41,7 @@ div li {
 
 input[type='submit'] {
     border: none;
-    background-color: rgb(17, 105, 146);
+    background-color: black;
     padding: 5px;
     font-size: 16px;
     color: white;
@@ -56,5 +59,8 @@ input[type='submit']:hover {
 input[type="text"] {
     padding: 5px;
     border: 2px solid rgb(20, 60, 87);
+}
+#commentText{
+    color: black;
 }
 
